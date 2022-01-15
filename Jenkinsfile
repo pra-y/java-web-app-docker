@@ -11,6 +11,10 @@ node{
       
     } 
     
+     stage('Initialize')
+    {
+        def dockerHome = tool 'docker'
+    }
     
     stage('Build Docker Image'){
         sh 'docker build -t pray307/demo-pipeline-script .'
