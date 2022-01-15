@@ -13,7 +13,7 @@ node{
     
     
     stage('Build Docker Image'){
-        sh 'docker build -t pra-y/java-web-app-docker .'
+        sh 'docker build -t pray307/demo-pipeline-script .'
     }
     
     stage('Push Docker Image'){
