@@ -13,7 +13,7 @@ node{
     
      stage('Initialize')
     {
-        def dockerHome = tool 'latest'
+        def dockerHome = tool 'docker'
     }
     
     stage('Build Docker Image'){
